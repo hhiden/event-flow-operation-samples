@@ -1,0 +1,12 @@
+apiVersion: "streamzi.io/v1"
+kind: Processor
+metadata:
+  name: random-pojo-source
+spec:
+  displayName: "Random POJO"
+  description: "Generates random HashMap data"
+  imageName: "streamziprocessors/cef-ops-random-pojo"
+  inputs:
+  outputs:
+    - "output-data"
+  settings:

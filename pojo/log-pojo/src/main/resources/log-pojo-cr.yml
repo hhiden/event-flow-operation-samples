@@ -1,0 +1,12 @@
+apiVersion: "streamzi.io/v1"
+kind: Processor
+metadata:
+  name: log-pojo
+spec:
+  displayName: "Log POJO"
+  description: "Prints the pojo received to console"
+  imageName: "streamziprocessors/cef-ops-log-pojo"
+  inputs:
+    - "input-data"
+  outputs:
+  settings:

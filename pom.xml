@@ -22,6 +22,7 @@
         <module>amqp/sender</module>
         <module>amqp/receiver</module>
         <module>filter-data</module>
+        <module>pojo/random-pojo</module>
     </modules>
 
     <dependencies>
@@ -39,7 +40,7 @@
     </dependencies>
 
     <properties>
-        <flow-manager.version>0.0.2</flow-manager.version>
+        <flow-manager.version>0.0.3-SNAPSHOT</flow-manager.version>
     </properties>
 
     <build>
